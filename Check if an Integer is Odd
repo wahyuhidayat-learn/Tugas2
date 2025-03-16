@@ -1,0 +1,19 @@
+1.JavaScript
+
+function isOdd(n) {
+    return n % 2 !== 0;
+}
+
+// Example usage:
+console.log(isOdd(3)); // Output: true
+console.log(isOdd(4)); // Output: false
+
+
+2.TypeScript
+function isOdd(n: number): boolean {
+    return n % 2 !== 0;
+}
+
+// Example usage:
+console.log(isOdd(3)); // Output: true
+console.log(isOdd(4)); // Output: false
