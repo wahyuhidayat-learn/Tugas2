@@ -1,0 +1,17 @@
+Javascript
+
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+
+// Example usage:
+console.log(fahrenheitToCelsius(100)); // Output: 37.77777777777778
+
+
+TypeScript
+function fahrenheitToCelsius(fahrenheit: number): number {
+    return (fahrenheit - 32) * 5 / 9;
+}
+
+// Example usage:
+console.log(fahrenheitToCelsius(100)); // Output: 37.77777777777778
